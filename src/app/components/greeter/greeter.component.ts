@@ -32,7 +32,6 @@ export class GreeterComponent implements OnInit {
       console.log('Se ah realizado el saludo');
       this.response = data.response;
       console.log(data.response);
-      this.form.reset();
     });
   }
 
@@ -45,7 +44,6 @@ export class GreeterComponent implements OnInit {
       console.log('Se ah realizado la petición del nombre');
       console.log(data.response);
       this.response = data.response;
-      this.form.reset();
     });
   }
 
@@ -58,7 +56,6 @@ export class GreeterComponent implements OnInit {
       console.log('Se ah despedido');
       console.log(data.response);
       this.response = data.response;
-      this.form.reset();
     });
   }
 }

@@ -13,7 +13,7 @@ export const headers = {
   'Ocp-Apim-Subscription-Key': 'b0dc8eb7924540e1913ab262b8500721',
 };
 
-export const apiUrl = 'https://localhost:44309/';
+export const apiUrl = 'https://back-technicaltestapi.azurewebsites.net/';
 export const methodGreetUrl = 'api/Greeter/ResponseGreet';
 export const methodNameUrl = 'api/Greeter/ResponseName';
 export const methodSayGoodByeUrl = 'api/Greeter/ResponseSayGoodBye';
