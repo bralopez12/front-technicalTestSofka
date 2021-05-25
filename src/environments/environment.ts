@@ -6,6 +6,18 @@ export const environment = {
   production: false
 };
 
+export const headers = {
+  'Access-Control-Allow-Origin': 'Development',
+  'Access-Control-Allow-Credentials': 'true',
+  'Content-Type': 'application/json',
+  'Ocp-Apim-Subscription-Key': 'b0dc8eb7924540e1913ab262b8500721',
+};
+
+export const apiUrl = 'https://localhost:44309/';
+export const methodGreetUrl = 'api/Greeter/ResponseGreet';
+export const methodNameUrl = 'api/Greeter/ResponseName';
+export const methodSayGoodByeUrl = 'api/Greeter/ResponseSayGoodBye';
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
